@@ -1,0 +1,36 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Kauppalista",
+      "products": [
+        {
+          "id": 1,
+          "name": "Maito",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Leipä",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Olut",
+          "quantity": 24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Krapula-ostokset",
+      "products": [
+        {
+          "id": 4,
+          "name": "Rullakebab",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
