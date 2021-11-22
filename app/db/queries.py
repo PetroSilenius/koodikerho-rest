@@ -23,6 +23,16 @@ def update_product_from_list_by_id(
                     return Product.parse_obj(product_data)
     raise HTTPException(status_code=404, detail="Product not found")
 
+def delete_product_from_list_by_id(list_id: int, product_id: int) -> None:
+    for shopping_list in data["lists"]:
+        if shopping_list["id"] == list_id:
+            for product_index, product_data in enumerate(shopping_list["products"]):
+                if product_data["id"] == product_id:
+                    shopping_list["products"].pop(product_index)
+                    return
+    raise HTTPException(status_code=404, detail="Product not found")
+
+
 def get_list_by_id(list_id: int) -> ShoppingList:
     for shopping_list in data["lists"]:
         if shopping_list["id"] == list_id:
