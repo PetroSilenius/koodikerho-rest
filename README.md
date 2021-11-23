@@ -1,5 +1,9 @@
 # Koodikerho REST
 
+A python FastAPI exercise from Digit ry coding club held on 22.11.2021.
+This repository consists of my result from the exercise and the
+the original repository was authored by Eero Ruohola & Markus Blomqvist and can be found at [DigitKoodit/koodikerho-rest](git@github.com:DigitKoodit/koodikerho-rest.git).
+
 ### Requirements
 
 - [Git](https://git-scm.com/downloads)
@@ -11,11 +15,11 @@
 1. **Clone this repo:**
 
 ```
-git clone git@github.com:DigitKoodit/koodikerho-rest.git
+git clone git@github.com:PetroSilenius/koodikerho-rest.git
 ```
 OR
 ```
-git clone https://github.com/DigitKoodit/koodikerho-rest.git
+git clone https://github.com/PetroSilenius/koodikerho-rest.git
 ```
 
 2. **Navigate to the directory you cloned:**
